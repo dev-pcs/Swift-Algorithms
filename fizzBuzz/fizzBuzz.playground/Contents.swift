@@ -1,9 +1,14 @@
 import UIKit
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-for num in numbers {
-    if num % 3 == 0 && num % 5 == 0 {
+var oneThousand = [Int] ()
+for i in 1 ... 1000 {
+    oneThousand.append(i)
+}
+
+
+for num in oneThousand {
+    if num % 15 == 0 {
         print("\(num) fizzbuzz")
     }else if num % 5 == 0 {
         print("\(num) buzz")
@@ -13,6 +18,3 @@ for num in numbers {
         print(num)
     }
 }
-
-
-
