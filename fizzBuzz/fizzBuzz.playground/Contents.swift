@@ -1,3 +1,7 @@
+//number divisible by 3 will print fizz
+//number divisible by 5 will print buzz
+//number divisible by 3 & 5 will print fizzbuzz
+
 import UIKit
 
 
